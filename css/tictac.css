@@ -22,17 +22,7 @@ td input{
     height:100px;
     background-color: pink;
 }
-.vertical
-{
-    border-top: 2px;
-    border-bottom: 2px;
-}
 
-.horizontal
-{
-    border-right: 2px;
-    border-left: 2px;
-}
 
 #startButton
 {
@@ -40,4 +30,5 @@ td input{
     height:20px;
     background-color: green;
     visibility: hidden;
+    color:white;
 }
