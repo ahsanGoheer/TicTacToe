@@ -10,3 +10,5 @@ Instructions to play the game:
 * Extract the contents of the .zip file.
 * Open the index.html file in your browser preferrably google chrome.
 * Start playing.
+
+<img src="./Screenshot/game.PNG" width=500px />
