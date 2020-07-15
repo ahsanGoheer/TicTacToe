@@ -33,3 +33,11 @@ td input{
     border-right: 2px;
     border-left: 2px;
 }
+
+#startButton
+{
+    width:200px;
+    height:20px;
+    background-color: green;
+    visibility: hidden;
+}

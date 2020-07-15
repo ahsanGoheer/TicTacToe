@@ -4,7 +4,8 @@
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <title>Tic Tac Toe</title>
-        <link rel="stylesheet" type="text/css" href="./tictac.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/tictac.css"/>
+        
     </head>
     <body>
         <h1>Tic Tac Toe</h1>
@@ -16,20 +17,24 @@
         </div>
         <table>
             <tr>    
-                <td><input type="button" class="vertical"></td>
-                <td><input type="button" class="vertical horizontal"/></td>
-                <td><input type="button" class="vertical"></td>
+                <td><input type="button" class="cell vertical"  id="0"></td>
+                <td><input type="button" class="cell vertical horizontal" id="1"/></td>
+                <td><input type="button" class="cell vertical" id="2"/></td>
             </tr>
             <tr>    
-                <td><input type="button" class="vertical"></td>
-                <td><input type="button" class="vertical horizontal"/></td>
-                <td><input type="button" class="vertical"></td>
+                <td><input type="button" class="cell vertical" id="3"></td>
+                <td><input type="button" class="cell vertical horizontal" id="4"/></td>
+                <td><input type="button" class="cell vertical" id="5"/></td>
             </tr>
             <tr>    
-                <td><input type="button" class="vertical" ></td>
-                <td><input type="button" class="vertical horizontal"/></td>
-                <td><input type="button" class="vertical"></td>
+                <td><input type="button" class="cell vertical" id="6"/></td>
+                <td><input type="button" class="cell vertical horizontal" id="7"/></td>
+                <td><input type="button" class="cell vertical"id="8" /></td>
             </tr>
         </table>
+        <div>
+            <input type="button" id="startButton" onclick="startGame()" value="Start Game"/>
+        </div>
+        <script src="./js/gameLogic.js"></script>
     </body>
 </html>
