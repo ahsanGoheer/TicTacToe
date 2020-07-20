@@ -11,7 +11,7 @@ Instructions to play the game:
 * Open the index.html file in your browser preferrably google chrome.
 * Start playing.
 
-Or you can go to <link href="https://ahsangoheer.github.io/TicTacToe/">Tic Tac Toe</link>
+Or you can go to [Tic Tac Toe]("https://ahsangoheer.github.io/TicTacToe/")
 
 <img src="./Screenshot/game.PNG" width=500px />
 
